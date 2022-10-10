@@ -58,10 +58,11 @@ span {
 input {
     width: 503px;
     height: 63px;
-    font-size: x-large;
+    font-size: large;
+    border: 2px solid #fff;
 }
 
-input [type=text]:focus {
+input [type=text]:active {
     border: 3px solid black;
 }
 
@@ -73,11 +74,12 @@ input [type=text]:focus {
     font-family: 'Aleo', serif;
     font-weight: 400;
     width: 153px;
-    height: 68px;
-    font-size: 14px;
+    min-height: 70px;
+    font-size: 16px;
     background-color: #5474FD;
     color: #fff;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
+    cursor: pointer;
 
     &:hover {
         background-color: #64aff9;
@@ -147,9 +149,9 @@ nav ul li a:hover {
     color: #E8E8E8;
 }
 
-// .text-right {
-   
-// }
+.img-right {
+   margin-left: 50px;
+}
 
 .btnsecond {
     width: 228px;
@@ -162,6 +164,7 @@ nav ul li a:hover {
     line-height: 26px;
     border: none;
     margin-left: 30px;
+    cursor: pointer;
 
     &:hover {
         background-color: #64aff9;
@@ -172,10 +175,62 @@ nav ul li a:hover {
     }
 }
 
+.iconbox {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(2,1fr);
+    background-color: #333333;
+    max-width: 1770px;
+    width: 100%;
+    min-height: 340px;
+}
+
+// .searchicons {
+//     font-family: 'Aleo';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 18px;
+//     line-height: 26px;
+//     display: inline-block;
+//     justify-content: space-between;
+//     text-align: center;
+//     margin-left: 50px;
+//     color: #fff;
+// }
+
+
+.searchicons1 {
+    grid-column: 3/9;
+    grid-row: 1/4;
+}
+
+.searchicons2 {
+    text-align: center;
+    color: #fff;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+.searchicons3 {
+    text-align: center;
+    color: #fff;
+    grid-column: 5/6;
+    grid-row: 2/4;
+}
+
+.searchicons4 {
+    text-align: center;
+    color: #fff;
+    grid-column: 8/9;
+    grid-row: 2/4;
+}
+
 .image-three {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 15px;
     background-image: url(/images/villa.png);
     background-size: cover;
     background-position: center;
@@ -185,10 +240,11 @@ nav ul li a:hover {
 }
 
 .text-box {
+    grid-column: 2/6;
+    grid-row: 2/3;
     max-width: 508px;
     width: 100%;
     min-height: 166px;
-    margin-left: 50px;
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -204,9 +260,10 @@ nav ul li a:hover {
 }
 
 .image-four {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 15px;
     background-image: url(/images/sunset.png);
     background-size: cover;
     background-position: center;
@@ -216,10 +273,11 @@ nav ul li a:hover {
 }
 
 .text-box-right {
+    grid-column: 5/8;
+    grid-row: 2/3;
     max-width: 508px;
     width: 100%;
     min-height: 166px;
-    margin-right: 50px;
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -259,7 +317,6 @@ nav ul li a:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-
     color: #fff;
     background-color: #333333;
 }
@@ -292,3 +349,18 @@ nav ul li a:hover {
     line-height: 26px;
     color: #fff;
 }
+
+.icons {
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+
+    &:hover {
+        color: #64aff9;
+    }
+}
+
+.icon-list {
+    padding: 10px 10px;
+}
+
