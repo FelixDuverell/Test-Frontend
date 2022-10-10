@@ -72,7 +72,7 @@ input {
 }
 
 input [type=text]:active {
-    border: 3px solid black;
+    border: 3px solid #f7ff01;
 }
 
 ::placeholder{
@@ -441,7 +441,7 @@ nav ul li a:hover {
     }
     
     input [type=text]:active {
-        border: 3px solid black;
+        border: 3px solid #f7ff01;
     }
     
     ::placeholder{
