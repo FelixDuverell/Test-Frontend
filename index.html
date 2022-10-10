@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/05341947df.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/icon" href="/images/rock.png" alt="rockhand-favicon">
+    <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="css/homepage.css">
     <title>test-frontend</title>
 </head>
@@ -17,20 +18,30 @@
                 <p class="smalltext">Safe Travel Anywhere</p>
                 
                 <div class="textbtn">
-                <input type="text" placeholder="Search Your Travel Destination">
+                <input type="text" placeholder="Search Your Travel Destination" required>
 
                 <button type="submit" class="btn" href="#">SEARCH<span> <i class="fa-solid fa-magnifying-glass"></i></span></button>
+                </div>
+
+                <div class="scroll">
+                    <p>Scroll Down</p>
+                    <p>v</p>
                 </div>
             </div>   
 
             <div class="navbar">
                 <nav>
                     <h2 class="logo">BHROMAON</h2>
+                    <div class="topnav" id="navbar-mobile"></div>
                     <ul>
-                        <li><a href="#">WHO ARE WE</a></li>
-                        <li><a href="#">WHAT WE DO</a></li>
-                        <li><a href="#">TRAVEL WITH US</a></li>
-                        <li><a href="#">CONTACT US</a></li>
+                        <li class="btnmenu" onclick="dropDownMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                            </li>
+
+                        <li class="list"><a href="#">WHO ARE WE</a></li>
+                        <li class="list"><a href="#">WHAT WE DO</a></li>
+                        <li class="list"><a href="#">TRAVEL WITH US</a></li>
+                        <li class="list"><a href="#">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -46,9 +57,9 @@
                     <button type="submit" class="btnsecond">Explore Places</button>
                 </div>
                 <div class="img-left">
-                    <div><img src="/images/bungalo.png" alt="bungalo"></div>
+                    <img src="/images/bungalo.png" alt="bungalo">
                 <div class="img-right">
-                    <div><img src="/images/bluemountains.png" alt="bluemountains"></div>
+                    <img src="/images/bluemountains.png" alt="bluemountains">
                 </div>
                 </div>     
             </div>
@@ -103,7 +114,7 @@
         <div class="container5">
             <div class="image-five">
                 <div class="text-center">
-                    <div><img src="/images/mountainview.png" alt="mountainview"></div>
+                    <div class="mountainview"><img src="/images/mountainview.png" alt="mountainview"></div>
 
                     <div class="mountain">
                     <h2>SAM SUMON</h2>
@@ -134,8 +145,6 @@
             </div>          
         </footer>
 
-    
-
-   
+        <script src="/js/menu.js"></script>
 </body>
 </html>
