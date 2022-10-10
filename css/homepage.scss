@@ -95,8 +95,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 nav ul li {
@@ -185,20 +185,6 @@ nav ul li a:hover {
     width: 100%;
     min-height: 340px;
 }
-
-// .searchicons {
-//     font-family: 'Aleo';
-//     font-style: normal;
-//     font-weight: 400;
-//     font-size: 18px;
-//     line-height: 26px;
-//     display: inline-block;
-//     justify-content: space-between;
-//     text-align: center;
-//     margin-left: 50px;
-//     color: #fff;
-// }
-
 
 .searchicons1 {
     grid-column: 3/9;
@@ -364,3 +350,7 @@ nav ul li a:hover {
     padding: 10px 10px;
 }
 
+
+@media screen and (max-width:320px) {
+    
+}
