@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Aleo', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(/images/girloncliff.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 1770px;
+    min-height: 820px;
+    width: 100%;
+
+}
+
+.bigtext {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    color: #fff;
+
+}
+
+.smalltext {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 345px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #fff;
+}
+
+span {
+    color: white;
+}
+
+
+.navbar {
+    max-width: 1770px;
+    width: 100%;
+    background-color: #5474FD;
+}
+
+.textbtn {
+    height: 63px;
+}
+
+input {
+    width: 503px;
+    height: 63px;
+    font-size: x-large;
+}
+
+input [type=text]:focus {
+    border: 3px solid black;
+}
+
+::placeholder{
+    color: #808080;
+}
+
+.btn {
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    width: 153px;
+    height: 68px;
+    font-size: 14px;
+    background-color: #5474FD;
+    color: #fff;
+    border: 2px solid #fff;
+
+    &:hover {
+        background-color: #64aff9;
+    }
+}
+
+.logo {
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #64aff9;
+    transition: .3s;
+    cursor: pointer;
+}
+ 
+
+
+.image-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(/images/city.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 1770px;
+    min-height: 685px;
+    width: 100%;
+}
+
+.text-left {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+
+    text-align: start;
+    max-width: 560px;
+    width: 100%;
+    min-height: 234px;
+
+
+    color: #E8E8E8;
+}
+
+.text-right {
+   
+}
+.btnsecond {
+    width: 228px;
+    height: 63px;
+    background-color: #5473fdb1;
+    color: #fff;
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    border: none;
+    margin-left: 30px;
+
+    &:hover {
+        background-color: #64aff9;
+    }
+
+    &:active {
+        background-color: #64aff9;
+    }
+}
+
+// image three and four have the same css //
+.image-three {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(/images/villa.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 1770px;
+    width: 100%;
+    min-height: 700px;
+}
+
+.image-four {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(/images/sunset.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 1770px;
+    width: 100%;
+    min-height: 700px;
+}
+
+.text-box {
+    max-width: 508px;
+    width: 100%;
+    min-height: 166px;
+    margin-left: 50px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    background-color: #232323aa;
+    color: #E8E8E8;
+
+}
+
+.spain {
+    margin-left: 30px;
+}
+
+.image-five {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(/images/manonrock.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 1770px;
+    width: 100%;
+    min-height: 731px;
+}
+
+.quote-mark {
+    color: #5474FD;
+}
+
+.text-center {
+    display: flex;
+    
+    max-width: 1110px;
+    width: 100%;
+    min-height: 287px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+
+    color: #fff;
+    background-color: #333333;
+}
+
+.mountain {
+    margin-left: 30px;
+}
+
+
+
+.footerbox {
+    width: 100%;
+    height: 271px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #232323;
+}
+
+.footerh3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.footer-text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
