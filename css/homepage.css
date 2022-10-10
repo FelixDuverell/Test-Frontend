@@ -218,24 +218,6 @@ nav ul li a:hover {
   min-height: 700px;
 }
 
-.image-four {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: url(/images/sunset.png);
-  background-size: cover;
-  background-position: center;
-  max-width: 1770px;
-  width: 100%;
-  min-height: 700px;
-}
-
 .text-box {
   max-width: 508px;
   width: 100%;
@@ -255,13 +237,46 @@ nav ul li a:hover {
   margin-left: 30px;
 }
 
+.image-four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(/images/sunset.png);
+  background-size: cover;
+  background-position: center;
+  max-width: 1770px;
+  width: 100%;
+  min-height: 700px;
+}
+
+.text-box-right {
+  max-width: 508px;
+  width: 100%;
+  min-height: 166px;
+  margin-right: 50px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  background-color: rgba(35, 35, 35, 0.6666666667);
+  color: #E8E8E8;
+}
+
 .image-five {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -277,23 +292,26 @@ nav ul li a:hover {
   color: #5474FD;
 }
 
+.mountain {
+  margin-left: 30px;
+}
+
 .text-center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 1110px;
   width: 100%;
-  min-height: 287px;
+  min-height: 280px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #fff;
   background-color: #333333;
-}
-
-.mountain {
-  margin-left: 30px;
 }
 
 .footerbox {
